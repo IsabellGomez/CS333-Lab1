@@ -1,8 +1,16 @@
 # cs333-lab1
 Do each step below and answer the questions as you go.
 
+**How this lab works (two things to hand in):**
+- **Your code:** make your own copy of this lab (click **Use this template**, or clone it),
+  do your work, and **push it to your own GitHub repo** so I can see your code.
+- **Your live form:** **SFTP the form pages to your web folder on `lampforall`** so the form
+  actually runs on the LAMP stack.
+
+You'll submit links to both in Moodle (see the last step).
+
 1. Do you have your simple apache website already set up? 
-2. What is your URL? Please provide it here.
+2. What is your URL? Provide it here — and practice writing it as a proper **Markdown link** in this file, e.g. `[my site](https://lampforall.cis251296.projects.jetstream-cloud.org/students/yourname)`, not just pasted plain text. (Good Markdown practice for your README.)
 3. As always, you can do the minimum, or you can go further than the assignment and embellish your work- highly encouraged.
 4. Put these two html files included in this lab1 repo in your local site. View them with live preview, and make sure they are visible locally.
 5. Link these two files to your index.html page, both ways so I can go to all pages from each page via hyperlinks.
@@ -25,5 +33,5 @@ Do each step below and answer the questions as you go.
 13. Describe what a static HTML site is, the limitations of this type of site
 14. What kind of non-static site would we need to be able to store the form information? Give an example of a configuration that will enable a form to accept data and store it persistently.
 
-15. Push this to GitHub.
+15. Push this repo — the lab **files** and this **README.md** (with your answers filled in) — to **your own GitHub repo**.
 16. Submit in Moodle two links: (1) your GitHub repo, and (2) your live site showing the working form. Labs are submitted in Moodle every week — that is how I receive your work.
