@@ -1,5 +1,5 @@
 # cs333-lab1
-Do each step below and answer the questions as you go.
+Do each step below, and **answer the questions right here in this `README.md` file** as you go (type your answers under each question).
 
 **How this lab works (two things to hand in):**
 - **Your code:** make your own copy of this lab (click **Use this template**, or clone it),
