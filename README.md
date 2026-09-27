@@ -19,6 +19,9 @@ Do each step below and answer the questions as you go.
       `$_POST['name']` if you switch the form's method to POST) — and echo them into the page.
     - Wrap each value in `htmlspecialchars(...)` before you echo it, so no one can inject
       HTML or script through the form. Why does that matter?
+    - NOTE: PHP only runs on the **server** — VS Code Live Server / local preview will NOT
+      execute it (you'll just see nothing or raw code). Test your `.php` by uploading it and
+      opening the page at your `.../students/yourname/` URL.
 13. Describe what a static HTML site is, the limitations of this type of site
 14. What kind of non-static site would we need to be able to store the form information? Give an example of a configuration that will enable a form to accept data and store it persistently.
 
