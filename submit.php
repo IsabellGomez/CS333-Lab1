@@ -3,42 +3,54 @@ $name = htmlspecialchars($_GET['name'] ?? '', ENT_QUOTES, 'UTF-8');
 $email = htmlspecialchars($_GET['email'] ?? '', ENT_QUOTES, 'UTF-8');
 $message = htmlspecialchars($_GET['message'] ?? '', ENT_QUOTES, 'UTF-8');
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Submission</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-    </style>
+    <title>Form Results</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Form Submission Results</h1>
-        <div id="result">
-            <p><strong>Name:</strong> <code><?= $name ?></code></p>
-            <p><strong>Email:</strong> <code><?= $email ?></code></p>
-            <p><strong>Message:</strong> <code><?= $message ?></code></p>
-        </div>
-    </div>
+
+    <header>
+        <h1>Form Submission</h1>
+        <p>Here is the information you submitted.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="form.html">Contact Form</a>
+        <a href="submit.php">Form Results</a>
+    </nav>
+
+    <main>
+
+        <div class="results">
+            <p>
+                <strong>Name:</strong>
+                <span><?= $name ?></span>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <span><?= $email ?></span>
+            </p>
+
+            <p>
+                <strong>Message:</strong>
+                <span><?= $message ?></span>
+            </p>
         </div>
 
-    <p>
-        <a href="index.html">Back to Home</a>
-    </p>
-</body>
-</html>
-</body>
+    </main>
 
+    <footer>
+    </footer>
+
+</body>
 </html>
